@@ -1,0 +1,20 @@
+{
+  "generator-ngx-rocket": {
+    "version": "5.0.1",
+    "props": {
+      "location": "path",
+      "appName": "angular_example",
+      "target": [
+        "web"
+      ],
+      "pwa": true,
+      "ui": "bootstrap",
+      "auth": true,
+      "lazy": true,
+      "angulartics": false,
+      "projectName": "angular-example",
+      "packageManager": "npm",
+      "mobile": []
+    }
+  }
+}
