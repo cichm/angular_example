@@ -1,3 +1,10 @@
 <p>
   people works!
 </p>
+<ul class="people">
+  <li *ngFor="let person of people"
+    [class.selected]="people === selectedPeople"
+    (click)="onSelect(people)">
+    <span class="badge">{{person.id}}</span> {{person.name}}
+  </li>
+</ul>
