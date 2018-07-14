@@ -13,7 +13,6 @@ import { HomeModule } from './home/home.module';
 import { LoginModule } from './login/login.module';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
-import { PeopleDetailComponent } from './people-detail/people-detail.component';
 
 @NgModule({
   imports: [
@@ -29,7 +28,7 @@ import { PeopleDetailComponent } from './people-detail/people-detail.component';
     LoginModule,
     AppRoutingModule
   ],
-  declarations: [AppComponent, PeopleDetailComponent],
+  declarations: [AppComponent],
   providers: [
   ],
   bootstrap: [AppComponent]

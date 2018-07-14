@@ -10,7 +10,7 @@ import { PeopleComponent} from "@app/people/people.component";
     PeopleRoutingModule
   ],
   declarations: [
-    PeopleComponent
+    PeopleComponent,
   ]
 })
 export class PeopleModule { }

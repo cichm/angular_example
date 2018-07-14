@@ -1,6 +1,3 @@
-<p>
-  people works!
-</p>
 <ul class="people">
   <li *ngFor="let person of people"
     [class.selected]="people === selectedPeople"
@@ -8,3 +5,5 @@
     <span class="badge">{{person.id}}</span> {{person.name}}
   </li>
 </ul>
+
+<app-people-detail [people]="selectedPeople"></app-people-detail>
