@@ -3,10 +3,10 @@
     [class.selected]="people === selectedPeople"
     (click)="onSelect(people)">
     <span class="badge">{{person.name.first}}</span>
-    {{person.name.last}}
-    {{person.name.title}}
-    {{person.location.street}}
+    | {{person.name.last}}
+    | {{person.name.title}}
+    | {{person.location.street}}
   </li>
 </ul>
 
-<!--<app-people-detail [people]="selectedPeople"></app-people-detail>-->
+<app-people-detail [people]="selectedPeople"></app-people-detail>
